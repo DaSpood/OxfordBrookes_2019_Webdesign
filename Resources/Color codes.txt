@@ -1,0 +1,7 @@
+b7b690 : Website background
+556b2f : Navbar and more-footer background, button contour
+bab86c : Article and button background
+6f4f28 : Footer background
+baa66c : Alternate button background
+~cccfc6 : More-footer text color
+~c4bcb3 : Footer text color
