@@ -3,5 +3,6 @@ b7b690 : Website background
 bab86c : Article and button background
 6f4f28 : Footer background
 baa66c : Alternate button background
+424242 : Font color general
 ~cccfc6 : More-footer text color
 ~c4bcb3 : Footer text color
