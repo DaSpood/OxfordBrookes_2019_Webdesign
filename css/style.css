@@ -131,6 +131,7 @@ nav a {
     margin: 5px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
     border-radius: 30px;
     width: 15%;
 }
@@ -163,13 +164,84 @@ nav a:active {
 /* ========== MAIN CONTENT ========== */
 /* ================================== */
 
-/* soon */
+main {
+    clear: both;
+    overflow: hidden;
+    height: auto;
+    margin: 5em, 1em, 5em, 1em;
+    padding: 5em, 1em, 5em, 1em;
+}
+
+main article {
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #bab86c;
+    border-top-style: dashed;
+    border-top-color: #556b2f;
+    border-bottom-style: dashed;
+    border-bottom-color: #556b2f;
+}
+
+main article h1 {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+main .article-textleft .text-content {
+    float left;
+}
+
+main .article-textleft p, h1 {
+    word-wrap: break-word;
+    width: 50%;
+}
+
+main .article-textleft #kms { /*placeholder for testing*/
+    clear: both;
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+main .button {
+    float: center;
+    display: block;
+    color: #424242;
+    background-color: #bab86c;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #556b2f;
+    border-radius: 30px;
+    width: 10%;
+}
+
+main .button:hover {
+    background-color: #baa66c;
+    color: #424242;
+}
+
+main .button:active {
+    background-color: #baa66c;
+    color: #424242;
+}
+
+#shop {
+    margin-left: 45%;
+    margin-bottom: 3em;
+}
 
 /* ================================ */
 /* ========== TOP FOOTER ========== */
 /* ================================ */
 
 .footertop {
+    font-family: 'Lato', sans-serif;
     clear: both;
     overflow: hidden;
     background-color: #556b2f;
@@ -179,8 +251,7 @@ nav a:active {
 }
 
 .newsletter {
-    font-family: 'Lato', sans-serif;
-    padding: 20px;
+    margin-left: 1em;
     float: left;
     width: 40%;
     text-align: left;
@@ -233,8 +304,7 @@ nav a:active {
 }
 
 .social {
-    font-family: 'Lato', sans-serif;
-    padding: 20px;
+    margin-right: 1em;
     float: right;
     width: 33%;
     text-align: left;
@@ -242,7 +312,7 @@ nav a:active {
 
 .social ul {
     list-style: none;
-    margin-right: 10em;
+    margin-right: 12em;
 }
 
 .social li {
