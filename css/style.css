@@ -1,1 +1,67 @@
-/* soon */
+body {
+    background: #b7b690;
+}
+
+/* HEADER AREA */
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.headerleft {
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+.logo {
+    float: left;
+    width: 10em;
+    height: auto;
+    object-fit: contain;
+}
+
+.tel {
+    float: left;
+}
+
+.headerright {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+.account {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+.logo_buttons {
+    list-style: none;
+}
+
+.logouser {
+    float: right;
+    width: 3em;
+    margin: 0em 1em 1em 1em;
+}
+
+.logocart {
+    float: right;
+    width: 3em;
+    margin: 0em 1em 1em 1em;
+}
+
+.search {
+    float: right;
+    clear: both;
+}
+
+/* NAVBAR */
+
+nav {
+    clear: both;
+    width: 100%;
+}
