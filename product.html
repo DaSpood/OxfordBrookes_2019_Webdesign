@@ -13,67 +13,90 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="img/logo.png" alt="FiredBowl Logo">
-            </div>
-            <div class="tel">
-                <p>Tel : 01234567890</p>
-                <p>Email : aabbccddee@ffgg.hhii</p>
-            </div>
-            <div class="account">
-                <div class="logo_buttons">
-                    <ul>
-                        <li><a href="#"><img src="img/user.png" alt="Your account"></a></li>
-                        <li><a href="#"><img src="img/shopping-cart.png" alt="Your shopping cart"></a></li>
-                    </ul>
+            <div class="headerleft">
+                <img src="img/logo.png" alt="FiredBowl Logo" class="logo">
+                <div class="tel">
+                    <p>Tel : 01234567890</p>
+                    <p>Email : aabbccddee@ffgg.hhii</p>
                 </div>
             </div>
-            <div class="search">
-                <input type="text" placeholder="Search product..">
+            <div class="headerright">
+                <div class="account">
+                    <ul>
+                        <li><a href="#"><img src="img/shopping-cart.png" alt="Your shopping cart"></a></li>
+                        <li><a href="#"><img src="img/user.png" alt="Your account"></a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit">Go</button>
+                    </form>
+                </div>
             </div>
         </header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <main>
-            <h1>Hello World</h1>
+            <article class="big-article article-textleft">
+                <div class="media-content">
+                    <iframe src="https://www.youtube.com/embed/Br_hc2dvQmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video: making of a clay pottery. Content may be unavailable in your browser.</iframe>
+                </div>
+                <div class="text-content">
+                    <h1>Hello World</h1>
+                    <p>This is a placeholder article made to test the CSS style of a complete page.<br />
+                    This is not the final content of the page. </p>
+                    <p>Now to fill the space with some text and express my current mood, here is how webdesign makes me feel:<br />
+                    REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
+                    <p>Send help</p>
+                </div>
+            </article>
+            <article class="big-article article-textleft">
+                <div class="media-content">
+                    <img src="https://i.kym-cdn.com/entries/icons/original/000/024/801/33481015d04b3974f9ed7acf616592901b13507ebdabf48ee1d6d09d63acc2c4.png" alt="kms placeholder" width="300px" id="kms">
+                </div>
+                <div class="text-content">
+                    <h1>Hello World</h1>
+                    <p>This is a placeholder article made to test the CSS style of a complete page.<br />
+                    This is not the final content of the page. </p>
+                    <p>Now to fill the space with some text and express my current mood, here is how webdesign makes me feel:<br />
+                    REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
+                    <p>Send help</p>
+                </div>
+            </article>
+            <a href="products.html" class="button" id="shop">SHOP NOW!</a>
         </main>
         <footer>
-            <div class="more">
+            <div class="footertop">
                 <div class="newsletter">
-                    <h2>Stay informed with our newsletter!</h2>
+                    <h1>Stay informed with our newsletter!</h1>
                     <input type="email" placeholder="Email"></input>
-                    <a href="#" id="button">Subscribe!</a>
+                    <a href="#" class="sub-button">Subscribe!</a>
                     <p>Generic <a href="about.html#Policy">Privacy Policy</a> disclaimer</p>
                 </div>
                 <div class="social">
-                    <h2>Follow us on social medias!</h2>
-                    <div class="logo_buttons">
-                        <ul>
-                            <li><a href="#"><img src="img/instagram.png" alt="FiredBowl on Instagram"></a></li>
-                            <li><a href="#"><img src="img/facebook.png" alt="FiredBowl on Facebook"></a></li>
-                        </ul>
-                    </div>
+                    <h1>Follow us on social medias!</h1>
+                    <ul>
+                        <li><a href="#"><img src="img/facebook.png" alt="FiredBowl on Facebook" class="logoimg"></a></li>
+                        <li><a href="#"><img src="img/instagram.png" alt="FiredBowl on Instagram" class="logoimg"></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer">
+            <div class="footerbottom">
                 <div class="copyright">
                     <p>Copyright information</p>
                     <p>License / Registration / Location information</p>
                 </div>
+                <img src="img/Accepted-Payment-Methods.png" alt="Accepted Payment Methods" class="payments">
                 <div class="footer_buttons">
                     <ul>
                         <li><a href="index.html">Alternate style</a></li>
                         <li><a href="#top">Back to top</a></li>
                     </ul>
-                </div>
-                <div class="payments">
-                    <img src="img/Accepted-Payment-Methods.png" alt="Accepted Payment Methods">
                 </div>
             </div>
         </footer>

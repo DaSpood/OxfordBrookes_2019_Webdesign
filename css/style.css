@@ -172,7 +172,33 @@ main {
     padding: 5em, 1em, 5em, 1em;
 }
 
-main article {
+main article h1 {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+main article p, main article h1 {
+    word-wrap: break-word;
+    text-align: left;
+}
+
+main article img {
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+main article iframe {
+    padding: 1em;
+    margin: 1em, 3em, 1em, 1em;
+    width: 560px;
+    height: 315px;
+    object-fit: contain;
+}
+
+main .big-article {
     padding: 2em;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -183,28 +209,24 @@ main article {
     border-bottom-color: #556b2f;
 }
 
-main article h1 {
-    font-weight: 900;
-    text-decoration: underline;
-}
-
 main .article-textleft .text-content {
+    width: 50%;
     float left;
 }
 
-main .article-textleft p, h1 {
-    word-wrap: break-word;
-    width: 50%;
+main .article-textleft .media-content {
+    width: 40%;
+    float: right;
 }
 
-main .article-textleft img { /*placeholder for testing*/
-    clear: both;
+main .article-textright .text-content {
+    width: 50%;
     float: right;
-    padding: 1em;
-    margin: 1em;
-    max-width: 40%;
-    width: auto;
-    height: auto;
+}
+
+main .article-textright .media-content {
+    width: 40%;
+    float: left;
 }
 
 main .button {
@@ -350,7 +372,7 @@ main .button:active {
 .payments {
     float: right;
     width: 12em;
-    max-width: 50%;
+    max-width: 70%;
     max-height: auto;
     margin: 1em;
 }
