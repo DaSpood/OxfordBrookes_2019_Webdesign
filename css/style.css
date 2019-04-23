@@ -175,7 +175,6 @@ main {
 main article h1 {
     font-size: 30pt;
     font-weight: 900;
-    text-decoration: underline;
     word-wrap: break-word;
     text-align: left;
 }
