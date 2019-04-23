@@ -262,19 +262,38 @@ main .button:active {
 }
 
 @media screen and (max-width: 600px) {
+    main article iframe {
+        width: 432px;
+        height: 243px;
+    }
+    main .big-article {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 14px;
+    }
     main .article-textleft .text-content {
+        margin: auto;
+        width: 100%;
         float: none;
     }
     main .article-textleft .media-content {
+        margin: auto;
+        width: 100%;
         float: none;
     }
     main .article-textright .text-content {
+        margin: auto;
+        width: 100%;
         float: none;
     }
     main .article-textright .media-content {
+        margin: auto;
+        width: 100%;
         float: none;
     }
     #shop {
+        width: 5em;
         margin-left: 40%;
         margin-bottom: 3em;
     }
