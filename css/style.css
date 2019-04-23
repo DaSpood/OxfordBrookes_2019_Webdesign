@@ -173,11 +173,15 @@ main {
 }
 
 main article h1 {
+    font-size: 30pt;
     font-weight: 900;
     text-decoration: underline;
+    word-wrap: break-word;
+    text-align: left;
 }
 
-main article p, main article h1 {
+main article p {
+    font-size: 14pt;
     word-wrap: break-word;
     text-align: left;
 }
