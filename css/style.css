@@ -95,18 +95,18 @@ body {
 
 @media screen and (max-width: 600px) {
   .search {
-    float: none;
+      float: none;
   }
   input[type=text], .search button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
   }
   input[type=text] {
-    border: 1px solid #bab86c;
+      border: 1px solid #bab86c;
   }
 }
 
@@ -147,17 +147,17 @@ nav a:active {
 }
 
 @media screen and (max-width: 600px) {
-  nav .search-container {
-    float: none;
-  }
-  nav a {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 90%;
-    margin: 5px;
-    padding: 14px;
-  }
+    nav .search-container {
+        float: none;
+    }
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 90%;
+        margin: 5px;
+        padding: 14px;
+    }
 }
 
 /* ================================== */
@@ -259,6 +259,21 @@ main .button:active {
 #shop {
     margin-left: 45%;
     margin-bottom: 3em;
+}
+
+@media screen and (max-width: 600px) {
+    main .article-textleft .text-content {
+        float: none;
+    }
+    main .article-textleft .media-content {
+        float: none;
+    }
+    main .article-textright .text-content {
+        float: none;
+    }
+    main .article-textright .media-content {
+        float: none;
+    }
 }
 
 /* ================================ */
