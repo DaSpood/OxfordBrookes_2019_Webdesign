@@ -172,6 +172,18 @@ main {
     padding: 5em, 1em, 5em, 1em;
 }
 
+main article {
+    padding: 2em;
+    padding-top: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #bab86c;
+    border-top-style: dashed;
+    border-top-color: #556b2f;
+    border-bottom-style: dashed;
+    border-bottom-color: #556b2f;
+}
+
 main article h1 {
     font-size: 30pt;
     font-weight: 900;
@@ -199,18 +211,6 @@ main article iframe {
     width: 560px;
     height: 315px;
     object-fit: contain;
-}
-
-main .big-article {
-    padding: 2em;
-    padding-top: 1em;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    background-color: #bab86c;
-    border-top-style: dashed;
-    border-top-color: #556b2f;
-    border-bottom-style: dashed;
-    border-bottom-color: #556b2f;
 }
 
 main .article-textleft .text-content {
