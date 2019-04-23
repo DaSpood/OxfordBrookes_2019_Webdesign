@@ -274,6 +274,10 @@ main .button:active {
     main .article-textright .media-content {
         float: none;
     }
+    #shop {
+        margin-left: 40%;
+        margin-bottom: 3em;
+    }
 }
 
 /* ================================ */
