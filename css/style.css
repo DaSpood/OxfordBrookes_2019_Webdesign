@@ -197,10 +197,13 @@ main .article-textleft p, h1 {
     width: 50%;
 }
 
-main .article-textleft #kms { /*placeholder for testing*/
+main .article-textleft img { /*placeholder for testing*/
     clear: both;
     float: right;
-    width: 30%;
+    padding: 1em;
+    margin: 1em;
+    max-width: 40%;
+    width: auto;
     height: auto;
 }
 
