@@ -174,7 +174,7 @@ main {
 
 main article {
     padding: 2em;
-    padding-top: 1em;
+    padding-top: 5px;
     margin-top: 3em;
     margin-bottom: 3em;
     background-color: #bab86c;
@@ -299,6 +299,65 @@ main #Policy .text-content {
     background-color: #baa66c;
 }
 
+/* Product List */
+
+#Products .media-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#Products img {
+    margin: 0;
+    object-fit: cover;
+    max-height: 20em;
+}
+
+#Products .price {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#Filtercontainer {
+    text-align: center;
+}
+
+#Filters {
+    display: inline-block;
+    text-align: left;
+    padding: 2em;
+    padding-bottom: 1em;
+    padding-top: 5px;
+    margin-top: 3em;
+    background-color: #bab86c;
+    border-style: dashed;
+    border-color: #556b2f;
+    border-radius: 10px;
+}
+
+#Filters form {
+    display: inline-block;
+}
+
+#Filters .leftfilters {
+    float: left;
+}
+
+#Filters .rightfilters {
+    float: right;
+}
+
+#Filters .filtersubmit {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    clear: both;
+    float: right;
+}
+
 /* trying to make everything responsive */
 
 @media screen and (max-width: 600px) {
@@ -332,7 +391,7 @@ main #Policy .text-content {
         width: 100%;
         float: none;
     }
-    #shop {
+    main .button {
         width: 5em;
         margin-left: 40%;
         margin-bottom: 3em;

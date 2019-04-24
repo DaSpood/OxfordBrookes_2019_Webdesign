@@ -43,19 +43,25 @@
             <a href="contact.html">Contact</a>
         </nav>
         <main>
-            <div class="filter">
-                <h3>Filters</h3>
-                <form>
-                    <input class="filterbox" type="checkbox" name="plate" value="1">Plates<br>
-                    <input class="filterbox" type="checkbox" name="bowl" value="1">Bowls<br>
-                    <input class="filterbox" type="checkbox" name="platter" value="1">Platters<br>
-                    <input class="filterbox" type="checkbox" name="tagine" value="1">Tagines<br>
-                    <input class="filterbox" type="checkbox" name="glasses" value="1">Glasses<br>
-                    <input class="filterbox" type="checkbox" name="jugs" value="1">Jugs<br>
-                    <input type="submit" value="Submit">
-                </form>
+            <div id="Filtercontainer">
+                <div class="filter" id="Filters">
+                    <h2>Filters</h2>
+                    <form>
+                        <div class="leftfilters">
+                            <input class="filterbox" type="checkbox" name="plate" value="1">Plates<br>
+                            <input class="filterbox" type="checkbox" name="bowl" value="1">Bowls<br>
+                            <input class="filterbox" type="checkbox" name="platter" value="1">Platters<br>
+                        </div>
+                        <div class="rightfilters">
+                            <input class="filterbox" type="checkbox" name="tagine" value="1">Tagines<br>
+                            <input class="filterbox" type="checkbox" name="glasses" value="1">Glasses<br>
+                            <input class="filterbox" type="checkbox" name="jugs" value="1">Jugs<br>
+                        </div>
+                        <input class="filtersubmit" type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
-            <div class="product-list">
+            <div class="product-list" id="Products">
                 <article class="article-textleft plate bowl" id="modern_red">
                     <div class="media-content">
                         <img src="img/products/modern_red.jpg" alt="Modern Red" id="modern_red_img">
@@ -65,8 +71,8 @@
                         <p>Large plates and bowls in a contemporary Moroccan pattern.</p>
                         <p>Price: <span class="price">£30.00 per item</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=modern_red" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=modern_red" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="blue_bowl">
@@ -78,8 +84,8 @@
                         <p>Traditional Moroccan large bowl in blue and white.</p>
                         <p>Price: <span class="price">£25.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=blue_bowl" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=blue_bowl" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft plate" id="large_blue_plate">
@@ -91,8 +97,8 @@
                         <p>Large plate in a traditional Moroccan blue and white pattern.</p>
                         <p>Price: <span class="price">£35.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=large_blue_plate" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=large_blue_plate" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft platter" id="green_platter">
@@ -104,8 +110,8 @@
                         <p>Large hand painted Moroccan platter in a traditional design.</p>
                         <p>Price: <span class="price">£45.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=green_platter" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=green_platter" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft plate bowl" id="yellow_bowl_and_plate">
@@ -117,8 +123,8 @@
                         <p>Traditional Moroccan medium bowl and plate in yellow.</p>
                         <p>Price: <span class="price">£35.00 per item</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=yellow_bowl_and_plate" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=yellow_bowl_and_plate" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="orange_bowls">
@@ -130,8 +136,8 @@
                         <p>Traditional Moroccan olive bowl in orange and white.</p>
                         <p>Price: <span class="price">£20.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=orange_bowls" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=orange_bowls" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft tagine" id="tagine">
@@ -143,8 +149,8 @@
                         <p>Large traditional Moroccan terracotta tagine.</p>
                         <p>Price: <span class="price">TBA</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=tagine" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=tagine" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft platter" id="flower_platter">
@@ -156,8 +162,8 @@
                         <p>Large hand painted Moroccan platter in a traditional design.</p>
                         <p>Price: <span class="price">£40.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=flower_platter" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=flower_platter" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft glasses" id="tea_glasses">
@@ -169,8 +175,8 @@
                         <p>Set of six tea glasses with a different colour pattern. Large silver coloured engraved tea tray.</p>
                         <p>Price: <span class="price">£40.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=tea_glasses" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=tea_glasses" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="terracotta_bowl">
@@ -182,8 +188,8 @@
                         <p>Large hand painted Moroccan terracotta rim bowl in a traditional design.</p>
                         <p>Price: <span class="price">£10.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=terracotta_bowl" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=terracotta_bowl" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="flower_bowl">
@@ -195,8 +201,8 @@
                         <p>Traditional Moroccan medium bowl in blue and white.</p>
                         <p>Price: <span class="price">£10.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=flower_bowl" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=flower_bowl" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="skyblue_bowl">
@@ -208,8 +214,8 @@
                         <p>Traditional Moroccan medium bowl in shades of blue.</p>
                         <p>Price: <span class="price">£20.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=skyblue_bowl" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=skyblue_bowl" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="olive_bowls">
@@ -221,8 +227,8 @@
                         <p>Traditional Moroccan olive bowl in different colours.</p>
                         <p>Price: <span class="price">£20.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=olive_bowls" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=olive_bowls" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft bowl" id="pink_bowl">
@@ -234,8 +240,8 @@
                         <p>Traditional Moroccan medium bowl in pink.</p>
                         <p>Price: <span class="price">£20.00</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=pink_bowl" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=pink_bowl" class="button">More details</a>
                 </article>
 
                 <article class="article-textleft jugs" id="jugs">
@@ -247,8 +253,8 @@
                         <p>Hand painted Moroccan terracotta jugs in a traditional design.</p>
                         <p>Price: <span class="price">£10.00 per item</span></p>
                     </div>
-                    <a href="#" class="button" id="shop">Add to basket</a>
-                    <a href="product.html?p=jugs" class="button" id="shop">More details</a>
+                    <a href="#" class="button">Add to basket</a>
+                    <a href="product.html?p=jugs" class="button">More details</a>
                 </article>
             </div>
         </main>
