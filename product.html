@@ -10,6 +10,7 @@
         <!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
         <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
         <link rel="icon" href="img/favicon.png">
+        <script src="scripts/product_loader.js" defer></script>
     </head>
     <body>
         <header>
@@ -42,33 +43,46 @@
             <a href="contact.html">Contact</a>
         </nav>
         <main>
-            <article class="article-textleft">
+            <article class="article-textleft" id="product_description">
                 <div class="media-content">
-                    <iframe src="https://www.youtube.com/embed/Br_hc2dvQmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video: making of a clay pottery. Content may be unavailable in your browser.</iframe>
+                    <img id="product_img">
                 </div>
                 <div class="text-content">
-                    <h1>Hello World</h1>
-                    <p>This is a placeholder article made to test the CSS style of a complete page.<br />
-                    This is not the final content of the page. </p>
-                    <p>Now to fill the space with some text and express my current mood, here is how webdesign makes me feel:<br />
-                    REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
-                    <p>Send help</p>
+                    <h1 id="product_name"></h1>
+                    <p id="p1"></p>
+                    <p id="p2"></p>
+                    <p id="p3"></p>
+                    <p id="p4"></p>
+                    <p id="price_area">Price: <span id="product_price"></span><p>
+                    <a href="#" class="button" id="Buy">Add to basket</a>
                 </div>
             </article>
-            <article class="article-textleft">
-                <div class="media-content">
-                    <img src="https://i.kym-cdn.com/entries/icons/original/000/024/801/33481015d04b3974f9ed7acf616592901b13507ebdabf48ee1d6d09d63acc2c4.png" alt="kms placeholder" width="300px" id="kms">
-                </div>
+            <article class="article-textleft" id="product_details">
                 <div class="text-content">
-                    <h1>Hello World</h1>
-                    <p>This is a placeholder article made to test the CSS style of a complete page.<br />
-                    This is not the final content of the page. </p>
-                    <p>Now to fill the space with some text and express my current mood, here is how webdesign makes me feel:<br />
-                    REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
-                    <p>Send help</p>
+                    <h1>Details:</h1>
+                    <table style="width:100%">
+                        <tr>
+                            <td class="rowname">Category</td>
+                            <td class="rowcontent" id="product_category"></td>
+                        <tr>
+                            <td class="rowname">Size</td>
+                            <td class="rowcontent" id="product_size"></td>
+                        </tr>
+                        <tr>
+                            <td class="rowname">Diameter</td>
+                            <td class="rowcontent" id="product_diameter"></td>
+                        </tr>
+                        <tr>
+                            <td class="rowname">Amount per order</td>
+                            <td class="rowcontent" id="product_quantity"></td>
+                        </tr>
+                        <tr>
+                            <td class="rowname">Availability</td>
+                            <td class="rowcontent" id="product_availability"></td>
+                        </tr>
+                    </table>
                 </div>
             </article>
-            <a href="products.html" class="button" id="shop">SHOP NOW!</a>
         </main>
         <footer>
             <div class="footertop">

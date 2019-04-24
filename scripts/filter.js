@@ -1,4 +1,4 @@
-function getUrlVars() { //https://html-online.com/articles/get-url-parameters-javascript/
+function GetUrlVars() { //https://html-online.com/articles/get-url-parameters-javascript/
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
         vars[key] = value;
@@ -36,7 +36,7 @@ function CheckboxSelector(list){
     }
 }
 
-var taglist = getUrlVars();
+var taglist = GetUrlVars();
 if(Object.keys(taglist).length != 0) {
     ArticleSelector(taglist);
 }
