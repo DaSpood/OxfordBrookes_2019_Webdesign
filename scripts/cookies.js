@@ -21,12 +21,12 @@ function getCookie(cname) {
 function checkCookie(cname, defaultvalue) {
     var cookie = getCookie(cname);
     if (cookie != "") {
-        console.log("found:" + cookie);
+        console.log("cookie found:" + cookie);
         return cookie;
     }
     else {
         setCookie(cname, defaultvalue);
-        console.log("not found");
+        console.log("cookie not found, created with value " + defaultvalue);
         return defaultvalue;
     }
 }
