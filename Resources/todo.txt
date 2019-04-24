@@ -1,0 +1,4 @@
+1) Fix buttons in product page (CSS)
+2) Make popup on first visit (JS/HTML/CSS)
+3) Make website more responsive (CSS/HTML)
+4) Do secondary design (CSS/HTML/JS)
