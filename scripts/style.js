@@ -11,10 +11,10 @@ function applyStyle(value) {
 function swapStyle() {
     var stylecookie = checkCookie("style","default");
     if (stylecookie == "default") {
-        setCookie("stylecookie","alternate");
+        setCookie("style","alternate");
     }
     else {
-        setCookie("stylecookie","default");
+        setCookie("style","default");
     }
     location.reload();
 }
