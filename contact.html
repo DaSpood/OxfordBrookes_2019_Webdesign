@@ -10,8 +10,19 @@
         <!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
         <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
         <link rel="icon" href="img/favicon.png">
+        <script src="scripts/cookies.js"></script>
+        <script src="scripts/style.js"></script>
+        <script src="scripts/popup.js" defer></script>
     </head>
     <body>
+        <div id="disclaimer_popup">
+            <div id="disclaimer_content">
+                <h3>Disclaimer</h3>
+                <p>The views and opinions expressed within these pages are personal and should not be construed as reflecting the views and opinions of Oxford Brookes University. This site is constructed as coursework for module U08054 at Oxford Brookes University. It is not a working web-site.</p>
+                <p>Note for the professor: The images given are more than 10MB total so I assume the 10MB limit for the website does not include the images. In case this website is corrupted or does not work properly, it is also available at <a href="https://daspood.github.io/">this link</a>.</p>
+                <button onclick="togglePopup()">Acknowledge</button>
+            </div>
+        </div>
         <header>
             <div class="headerleft">
                 <img src="img/logo.png" alt="FiredBowl Logo" class="logo">
@@ -88,7 +99,7 @@
                 <img src="img/Accepted-Payment-Methods.png" alt="Accepted Payment Methods" class="payments">
                 <div class="footer_buttons">
                     <ul>
-                        <li><a href="index.html">Alternate style</a></li>
+                        <li><a href="#" onclick="swapStyle()">Change style</a></li>
                         <li><a href="#top">Back to top</a></li>
                     </ul>
                 </div>
