@@ -387,6 +387,19 @@ main #Policy .text-content {
     float: right;
 }
 
+/* product page */
+
+#product_price {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#product_details .rowname {
+    font-weight: bold;
+    margin-right: 1em;
+}
+
 /* trying to make everything responsive */
 
 @media screen and (max-width: 600px) {
