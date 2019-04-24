@@ -294,8 +294,8 @@ function LoadPage(product) {
         break;
     }
 
-    img.setAttribute("src","img/products/modern_red.jpg");
-    img.setAttribute("alt","Modern Red");
+    img.setAttribute("src",imgsrc);
+    img.setAttribute("alt",imgalt);
     name.appendChild(nametext);
     desc1.appendChild(desctext1);
     desc2.appendChild(desctext2);
