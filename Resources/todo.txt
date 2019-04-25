@@ -1,2 +1,2 @@
-1) Make website more responsive (CSS/HTML)
-2) Do secondary design (CSS/HTML/JS)
+1) Do secondary design (CSS)
+2) Add special elements to second CSS like discount banners (CSS, HMTL)

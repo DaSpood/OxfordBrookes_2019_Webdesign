@@ -1,7 +1,7 @@
-b7b690 (alt:) : Website background
-556b2f (alt:) : Navbar and more-footer background, button contour
-bab86c (alt:) : Article and button background
-6f4f28 (alt:) : Footer background
-baa66c (alt:) : Alternate button background
-424242 (alt:) : Font color general
-e0e0e0 (alt:) : Font color footer
+b7b690 (alt: 8fb6b6) : Website background
+556b2f (alt: 31387d) : Navbar and more-footer background, button contour
+bab86c (alt: 87ceeb) : Article and button background
+6f4f28 (alt: 191970) : Footer background
+baa66c (alt: 87b2eb) : Alternate button background
+424242 (alt:/) : Font color general
+e0e0e0 (alt:/) : Font color footer
