@@ -1,3 +1,2 @@
 1) Make website more responsive (CSS/HTML)
 2) Do secondary design (CSS/HTML/JS)
-3) Spread popup an footer button changes to all pages (from About page)

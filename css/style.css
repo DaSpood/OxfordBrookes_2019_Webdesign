@@ -495,7 +495,7 @@ main #Policy .text-content {
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    width: 27%;
+    width: auto;
     display: inline-block;
     padding: 8px;
     background: #fff;
