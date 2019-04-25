@@ -4,5 +4,4 @@ bab86c (alt:) : Article and button background
 6f4f28 (alt:) : Footer background
 baa66c (alt:) : Alternate button background
 424242 (alt:) : Font color general
-~cccfc6 (alt:) : More-footer text color
-~c4bcb3 (alt:) : Footer text color
+e0e0e0 (alt:) : Font color footer

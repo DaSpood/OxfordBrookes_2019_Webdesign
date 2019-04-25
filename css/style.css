@@ -458,7 +458,7 @@ main #Policy .text-content {
     background-color: #556b2f;
     width: 100%;
     height: auto;
-    color: #c4bcb3;
+    color: #e0e0e0;
 }
 
 .newsletter {
@@ -473,7 +473,7 @@ main #Policy .text-content {
 }
 
 .newsletter p a {
-    color: #cccfc6;
+    color: #e0e0e0;
 }
 
 .newsletter p a:hover {
@@ -546,7 +546,7 @@ main #Policy .text-content {
     background-color: #6f4f28;
     width: 100%;
     height: auto;
-    color: #cccfc6;
+    color: #e0e0e0;
 }
 
 .copyright {
@@ -578,7 +578,7 @@ main #Policy .text-content {
 }
 
 .footer_buttons a {
-    color: #cccfc6;
+    color: #e0e0e0;
 }
 
 .footer_buttons a:hover {
