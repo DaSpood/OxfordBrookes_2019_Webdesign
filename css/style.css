@@ -508,15 +508,15 @@ main #Policy .text-content {
 }
 
 .social {
-    margin-right: 1em;
+    margin-right: 2em;
     float: right;
     width: 33%;
-    text-align: left;
+    text-align: right;
 }
 
 .social ul {
     list-style: none;
-    margin-right: 12em;
+    margin-right: 6em;
 }
 
 .social li {
