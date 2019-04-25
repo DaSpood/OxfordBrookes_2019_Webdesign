@@ -207,7 +207,7 @@ main article {
     border-bottom-color: #556b2f;
 }
 
-main article h1 {
+main article h1, main article h2, main article h3 {
     color: #424242;
     font-size: 30pt;
     font-weight: 900;
