@@ -1,2 +1,1 @@
-1) Do secondary design (CSS)
-2) Add special elements to second CSS like discount banners (CSS, HMTL)
+1) Add special elements to second CSS like discount banners (CSS, HMTL)
