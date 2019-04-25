@@ -438,6 +438,13 @@ main #Policy .text-content {
         margin-left: 40%;
         margin-bottom: 3em;
     }
+    #Contact #Contactpic {
+        padding: 1em;
+        margin: 0;
+        object-fit: cover;
+        max-height: 25em;
+        width: 100%;
+    }
 }
 
 /* ================================ */
