@@ -208,6 +208,7 @@ main article {
 }
 
 main article h1 {
+    color: #424242;
     font-size: 30pt;
     font-weight: 900;
     word-wrap: break-word;
@@ -215,6 +216,7 @@ main article h1 {
 }
 
 main article p {
+    color: #424242;
     font-size: 14pt;
     word-wrap: break-word;
     text-align: left;
