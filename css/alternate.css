@@ -238,13 +238,22 @@ main article iframe {
     object-fit: contain;
 }
 
+main .media-content {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
 main .article-textleft .text-content {
     width: 50%;
     float left;
 }
 
 main .article-textleft .media-content {
-    width: 40%;
     float: right;
 }
 
@@ -254,7 +263,6 @@ main .article-textright .text-content {
 }
 
 main .article-textright .media-content {
-    width: 40%;
     float: left;
 }
 
@@ -283,7 +291,11 @@ main .button:active {
     background-color: #87b2eb;
 }
 
-/* Home "Shop Now" Button */
+/* Home Page */
+
+#Product-presentation img {
+    max-height: 22em;
+}
 
 #shop {
     margin-left: 45%;
@@ -333,15 +345,6 @@ main #Policy .text-content {
 }
 
 /* Product List */
-
-#Products .media-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-}
 
 #Products img {
     max-height: 20em;
