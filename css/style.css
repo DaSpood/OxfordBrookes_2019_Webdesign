@@ -398,8 +398,13 @@ main #Policy .text-content {
 }
 
 #product_details .rowname {
+    color: #424242;
     font-weight: bold;
     margin-right: 1em;
+}
+
+#product_details td {
+    color: #424242;
 }
 
 /* trying to make everything responsive */
