@@ -15,5 +15,5 @@ Search icon     : Icons made by Yannick (https://www.flaticon.com/authors/yannic
 
 Code/Scripts :
 
-Snow Effect (CSS)                    : https://codepen.io/jpschwinghamer/pen/QwwbgO, found from the article https://engageinteractive.co.uk/blog/5-modern-snow-effects. Public code on codepen is open-source
+Snow Effect (CSS)                    : https://codepen.io/jpschwinghamer/pen/QwwbgO, found from the article https://engageinteractive.co.uk/blog/5-modern-snow-effects. More info : https://blog.codepen.io/legal/licensing/
 Get parameters from URL (JavaScript) : https://html-online.com/articles/get-url-parameters-javascript/
