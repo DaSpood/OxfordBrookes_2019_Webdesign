@@ -1,0 +1,19 @@
+####################
+Credits and sources:
+####################
+
+
+Images/Icons/Logos :
+
+Payment methods : https://ya-webdesign.com/explore/accepted-cards-png/
+Shopping Cart   : Icons made by Dave Gandy (https://www.flaticon.com/authors/dave-gandy) from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0
+User Account    : Icons made by Freepik (https://www.freepik.com/) from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0
+Facebook icon   : Icons made by Freepik (https://www.freepik.com/) from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0
+Instagram icon  : Icons made by Freepik (https://www.freepik.com/) from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0
+Search icon     : Icons made by Yannick (https://www.flaticon.com/authors/yannick) from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0
+
+
+Code/Scripts :
+
+Snow Effect (CSS)                    : https://codepen.io/jpschwinghamer/pen/QwwbgO, found from the article https://engageinteractive.co.uk/blog/5-modern-snow-effects. Public code on codepen is open-source
+Get parameters from URL (JavaScript) : https://html-online.com/articles/get-url-parameters-javascript/
