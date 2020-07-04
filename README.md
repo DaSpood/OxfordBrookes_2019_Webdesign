@@ -1,4 +1,4 @@
-# OxfordBrookes_2019_Webdesign
+# Simple_web_storefront
 
 This repository is an archive of a webdesign project for a course at Oxford Brookes University during the winter 2019 semester. This was also my first real experience with frontend web development.
 
